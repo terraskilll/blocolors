@@ -1,0 +1,108 @@
+===========================================================================
+===========================================================================
+
+Blocolors - um jogo sobre mover um bloco colorido numa superfície colorida
+
+Nilson da Silva - 19-05-2016
+
+===========================================================================
+
+                                 LICENÇA
+
+             Licença super-curta inventada há pouco versão 7
+
+Este programa é fornecido sem nenhuma garantia. O código fonte, caso esteja
+acompanhando o executável, pode ser copiado, usado, modificado, etc, sem a
+necessidade de minha aprovação prévia. O mesmo vale para as artes e logos
+do jogo.
+
+Se você ganhar algum dinheiro com isso, mande um pouco dele pra mim ou doe
+para alguma instituição de sua preferência (APAE, GRAAC, ...).
+
+
+===========================================================================
+
+                                COMO JOGAR
+
+- setas direcionais movem o cubo do jogador (ver o "How to Play" dentro 
+  do jogo para entender as direções de movimentação);
+- o objetivo de cada fase é chegar ao piso amarelado com um desenho verde 
+  e uma luz esverdeada em cima;
+- o cubo pode se mover livremente sobre os pisos cinzas, mas nos pisos
+  coloridos a cor da parte de baixo do cubo deve ser igual à cor do piso.
+  Se for diferente, o jogador perde e tem que recomeçar;
+- o contador de tempo só começa a decrementar após a primeira movimentação 
+  do jogador. Se o tempo se esgotar, o jogador perde;
+- a tecla "ESC" pausa o jogo, permitindo sair da partida também
+
+
+===========================================================================
+
+                                COMO EDITAR
+								
+- do lado esquerdo, selecione o piso que se deseja incluir e clique na 
+  grid central. Isso colocará um piso da cor selecionada na fase;
+- se clicar, arrastar e soltar, serão preenchidos os pisos percorridos
+  ao arrastar (facilita a criação de fases grandes);
+- o piso amarelado com círculos verdes marca o objetivo (fim da fase);
+- o piso cinza com uma bandeira marca o local em que o jogador começa 
+  (início da fase);
+- o botão "PLAY" inicia a fase em modo de teste;
+- o botão "NEW" cria uma nova fase, com uma grade de 25x15;
+- o botão "SAVE" salva o estado atual da fase. Recomendo sempre salvar
+  antes de executar;
+- para aumentar ou diminuir o grid, use os botões de adição (+) e subtração
+  (-) ao lado das palavras "WID" (largura) e "HEI" (altura). Note que essa 
+  alteração é destrutiva, ou seja, se a alteração de tamanho excluir pisos,
+  eles não voltam caso a alteração seja desfeita;
+- a parte que indica o "LEVEL" mostra o número da fase que está sendo 
+  editada no momento. Os botões ao lado do número permitem transitar entre
+  estas fases;
+- a parte que indica "TIME" permite configurar o tempo para se concluir a
+  fase (em segundos). Este tempo deve ser balanceado com a dificuldade da
+  fase;
+- para sair do editor, basta clicado no botão "EXIT"
+
+
+===========================================================================
+
+                                PENDÊNCIAS
+
+- efeitos sonoros e música;
+- arte mais consistente;
+- animação ao mover o bloco;
+- continuar da última fase jogada ao reabrir o jogo (salvar progresso);
+- animação ao ganhar ou perder;
+- transições mais suaves (as mensagens aparecem na tela sem transições);
+- ranking (por tempo e por número de movimentos);
+- imagens de fundos (nos menus e nas fases);
+- blocos de chão "mágicos" (mudam de cor com o tempo ou movimentação do
+  jogador);
+- possibilidade de fases com mais de uma saída;
+- zoom no editor;
+- no editor, permitir preencher uma região maior (possivelmente com 
+  arrastar e soltar do mouse, ou segurando uma tecla auxiliar);
+- validar fases criadas antes de executar (evitando criar fases sem saída,
+  por exemplo);
+- seleção de fases (estilo Angry Birds, talvez) no jogo e no editor;
+- consistência nas mensagens (português-inglês)
+
+
+===========================================================================
+
+                            PROBLEMAS CONHECIDOS
+
+- ao segurar uma tecla direcional durante a partida, o cubo se move mas a 
+  tela não acompanha a movimentação;
+- estando no editor, ao iniciar o teste (clicando em play), e voltando 
+  depois para o editor, o nível exibido no editor é o primeiro, não o que 
+  estava sendo editado;
+- é possível "pausar" estando com as telas de "LEVEL FAILED" ou "LEVEL 
+  COMPLETED" sendo exibidas
+
+
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
